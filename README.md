@@ -1,7 +1,6 @@
 <h1 align='center'>Portifolio</h1> 
 
-Click aqui:  [Seja Bem Vindo ao Meu Portifolio!](https://app.netlify.com/start/deploy?repository=https://ivan-da-cruz-developer.netlify.app)
-
+Click aqui:  [Seja Bem Vindo ao Meu Portifolio!](https://ivan-da-cruz-developer.netlify.app)
 <hr>
 <br>
 
