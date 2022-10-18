@@ -24,7 +24,7 @@
 <br>
 
 
-<h1 align='center'> Tecnologias Utilizadas </h1>
+<h1 align='center'> Tecnologias Utilizadas 💻 </h1>
 
 <p align='center'>No site foram utilisados</p>
 
@@ -45,13 +45,18 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e6d5a4e0-dee1-4261-833e-2f47f509c68f/deploy-status)](https://app.netlify.com/sites/gitwriter/deploys)
 
-[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
+Este site foi hospedado sem custo nenhum em 
+<p align='center'>
+
+  [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://ivan-da-cruz-developer.netlify.app)
+
+</p>
 
 
 <hr>
 <br>
 
-<h2 align='center'>Licença</h2> 
+<h2 align='center'>Licença 🎗️</h2> 
 
 
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
