@@ -1,10 +1,13 @@
-/* ========= toggle style switcher | alternador de estilo =========== */
+/* ================= toggle style switcher  ====================== */
+
 const styleSwitcherToggle = document.querySelector(".style-switcher-toggler"); 
 styleSwitcherToggle.addEventListener("click", () =>{
     document.querySelector(".style-switcher").classList.toggle("open");
 })
 
-/* ========= hide style - switcher on scroll |  ocultar estilo - alternador na rolagem  =========== */
+
+/* ================ hide style - switcher on scroll  ========================= */
+
 window.addEventListener("scroll", () => {
     if(document.querySelector(".style-switcher").classList.contains("open"))
     {
@@ -12,7 +15,8 @@ window.addEventListener("scroll", () => {
     }
 })
 
-/* ========= theme colors | theme colors =========== */
+/* ===================== theme colors  ================== */
+
 const alternateStyle = document.querySelectorAll(".alternate-style");
 function setActiveStyle(color)
 {
@@ -32,7 +36,8 @@ function changeColor(){
     })
 }
 
-/********888888 theme light and dark mode |  tema claro e modo escuro 888888*********/
+/* ====================== theme light and dark mode ==========================*/
+
 const dayNight = document.querySelector(".day-night");
 dayNight.addEventListener("click", () =>{  //inicio da interação do botão dia noite
     dayNight.querySelector("i").classList.toggle("fa-sun");

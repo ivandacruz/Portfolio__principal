@@ -1,11 +1,12 @@
-/* <!---  typing animation | animação da apresentação do site ----> */
+/* ================= Typing animation ============== */
 
 var typed = new Typed(".typing",{
     strings:[
         "",
         "Desenvolvedor Fullstack",
         "Web Developer",
-        "Graphic Designer",
+        "Front-End",
+        "Back-End",
         "Freelancer"
     ],
     typeSpeed:100,
@@ -13,7 +14,7 @@ var typed = new Typed(".typing",{
     loop:true
 })
 
- /* === ==========  Aside ======= === */
+ /* ================== Aside ====================== */
 const nav = document.querySelector(".nav"),
     navList = nav.querySelectorAll("li"),
     totalNavList = navList.length,
@@ -98,4 +99,3 @@ const nav = document.querySelector(".nav"),
                 allSection[i].classList.toggle("open");
             }
         }
-                             /*    */
