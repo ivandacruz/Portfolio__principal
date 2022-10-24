@@ -64,3 +64,5 @@ Este site foi hospedado sem custo nenhum em
 <br>
 
 Com 🫀 por: [Ivan Da Cruz](https://github.com/ivandacruz) 😃.
+
+---
