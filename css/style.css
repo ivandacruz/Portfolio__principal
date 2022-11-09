@@ -37,7 +37,7 @@ body{
     box-sizing: border-box;
 }
 
-ul /* retira as bolinhas dos iconis*/
+ul 
 {
     list-style: none;
 }
@@ -61,12 +61,12 @@ ul /* retira as bolinhas dos iconis*/
 
 }
 
-/* ========================= */
+
 .section.back-section
 {
     z-index: 1;
 }
- /* Start - criando efeito SLIDE de apresentação das paginas formato sobreposição */
+ 
 .section.active
 {
     z-index: 2;
@@ -86,7 +86,6 @@ ul /* retira as bolinhas dos iconis*/
     }
 }
 
-/*  ==================================== */
 
 
 .hidden 
@@ -94,12 +93,7 @@ ul /* retira as bolinhas dos iconis*/
     display: none !important;
 }
 
-/* o main sai para poder criar o navbar que espande e recolhe
-.main-content
-{
-    padding-left: 270px;
-}
-*/
+
 .padd-15
 {
     padding-left: 15px;
@@ -207,7 +201,7 @@ ul /* retira as bolinhas dos iconis*/
     color: #151515;
     transform: scale(1.05);
 }
-/* box cor e posição | education and experience*/
+
 .shadow-dark
 {
     box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
@@ -265,7 +259,7 @@ ul /* retira as bolinhas dos iconis*/
     bottom: 0;
     left: 0;
 }
-/* desenho no canto direito da logo - topo */
+
 .aside .logo a::after
 {
     content: '';
@@ -278,7 +272,6 @@ ul /* retira as bolinhas dos iconis*/
     right: 0;
 }
 
-/*  inicio do interação com a barra de menu  */
 .aside .nav-toggler
 {
     height: 40px;
@@ -449,11 +442,11 @@ h3.my-profession
 .home .home-img img
 {
     margin: auto;
-    height: 300px;/*comprimento da imagem*/
+    height: 300px;
     border-radius: 5px;
 }
 
-/* About  ou Sobre min*/
+/* About */
 .about .about-content 
 {
     flex: 0 0 100%;
@@ -520,7 +513,7 @@ h3.my-profession
 {
     margin-top: 30px;
 }
-/*Botões download cv e click aqui*/
+/*Botom download cv */
 .about .about-content .personal-info .buttons .btn
 {
     margin-top: 10px;
@@ -580,7 +573,7 @@ h3.my-profession
     font-weight: 400;
     line-height: 40px;
 }
-/* aqui os dois podem ser juntos porque vão pegar as mesmas config.*/
+
 .about .about-content .education,
 .about .about-content .experience
 {
@@ -613,7 +606,6 @@ h3.my-profession
     position: relative;
 }
 
-/* vamos dar posicionamento ao calendar */
 .about .about-content .timeline .timeline-item
 {
     position: relative;
@@ -752,7 +744,7 @@ h3.my-profession
 }
 
 
-/** <***** ==  Portfolio == *****> **/
+/** Portfolio **/
 
 .portfolio .container
 {
@@ -842,7 +834,7 @@ h3.my-profession
     font-weight: 700;
     color: var(--text-black-900);
     text-transform: capitalize;
-    margin: 15px 0 5px; /* cria margem entre iconis e texto*/
+    margin: 15px 0 5px; 
 }
 
 .contact .contact-info-item p
@@ -853,7 +845,6 @@ h3.my-profession
     font-weight: 400;
 }
 
-/* mudei aqui para teste */
 .contact .contact-info-item p:hover
 {
     color: aqua;
@@ -885,15 +876,15 @@ h3.my-profession
     margin-bottom: 30px;
 }
 
-/* formato das caixas de dialogo de mande-me um email */
+
 .contact .contact-form .form-item .form-control
 {
     width: 100%;
     height: 50px;
     border-radius: 20px;
     background: var(--bg-black-100);
-    border: 1px solid var(--bg-black-50); /* se quiser mudar as cores da borda pode viu das caixas de dialogo */ 
-    padding: 10px 25px; /* Definindo o posicionamento dos nomes dentro das caixas */
+    border: 1px solid var(--bg-black-50); 
+    padding: 10px 25px; 
     font-size: 16px;
     color: var(--text-black-700);
     transition: all 0.3s ease;
@@ -901,10 +892,10 @@ h3.my-profession
 
 .contact .contact-form .form-item .form-control:focus
 {
-    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15); /*a cor e formato das letras digitadas (mande me um email)*/
+    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15); 
 }
 
-.contact .contact-form .form-item textarea.form-control /* caixa de dialogo maior*/
+.contact .contact-form .form-item textarea.form-control 
 {
     height: 140px;
 }
@@ -915,8 +906,8 @@ h3.my-profession
     padding: 0 40px 0;
 }
 
-/* Medias query para a resposividade da pagina */
-@media (max-width:1199px) /*maximo abertura da pagina*/
+
+@media (max-width:1199px) 
 {
     .section .container 
     {
@@ -957,7 +948,7 @@ h3.my-profession
     }
 }
 
-@media (max-width:991px) /*média 1 abertura da pagina*/
+@media (max-width:991px) 
 {
     .contact .contact-info-item,
     .portfolio .portfolio-item,
@@ -980,7 +971,7 @@ h3.my-profession
     }
 }
 
-@media (max-width:767px) /*media 2 abertura da pagina*/
+@media (max-width:767px) 
 {
     .service .service-item,
     .portfolio .portfolio-item,
@@ -994,6 +985,10 @@ h3.my-profession
     {
         flex: 0 0 100%;
         max-width: 100%;
+    }
+    .btns {
+        align-items: center;
+
     }
 }
 
