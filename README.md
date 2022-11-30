@@ -1,31 +1,29 @@
-<h1 align='center'>Portifolio</h1> 
+<h1 align='center'>Portfolio</h1> 
 
-Click aqui:  [Seja Bem Vindo ao Meu Portifolio!](https://ivan-da-cruz-developer.netlify.app)
+Click here: [Welcome to My Portfolio!](https://ivan-da-cruz-developer.netlify.app)
 <hr>
 <br>
 
-<h2 align='center'> Descrição 📄</h2>
+<h1 align='center'> Description 📄</h1>
 
-### O site é Composto por:
+### The site is composed of:
 
-- Quem sou eu - nessa seção temos uma breve descrição do profissional.
+- Who am I - in this section we have a brief description of the professional.
 
-- Experiencia Profissional - aborda algumas das experiencias adiquida na funcao de programador front-end.
+- Professional Experience - addresses some of the experiences acquired as a front-end programmer.
 
-- Projetos  - Uma descrição dos projetos feitos durante fase de aprendizado da função.
+- Projects - A description of the projects made during the job's learning phase.
 
-- Servicos - havera uma breve apresentação dos trabalhos realizados ate aqui durante a vida profissional.
+- Services - there will be a brief presentation of the work done so far during professional life.
 
-- Conhecimentos - Aqui apresento meu conhecimento em uma breve apresentação sobre cursos e trabalhos realizados com o foco a principio no Front-end. 
-
+- Knowledge - Here I present my knowledge in a brief presentation about courses and work carried out with the focus at first on the Front-end.
 
 <hr>
 <br>
 
 
-<h1 align='center'> Tecnologias Utilizadas 💻 </h1>
+<h1 align='center'> Technologies used 💻 </h1>
 
-<p align='center'>No site foram utilisados</p>
 
 <div align='center'>
 
@@ -40,29 +38,34 @@ Click aqui:  [Seja Bem Vindo ao Meu Portifolio!](https://ivan-da-cruz-developer.
 <hr>
 <br>
 
-<h2 align='center'>⚙️ Deploy 🛠️</h2> 
+<h1 align='center'>⚙️ Deploy 🛠️</h1> 
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e6d5a4e0-dee1-4261-833e-2f47f509c68f/deploy-status)](https://app.netlify.com/sites/gitwriter/deploys)
 
-Este site foi hospedado sem custo nenhum em 
-<p align='center'>
+
+
+<h2 align="center">
+
+This site is hosted free of charge at. 
 
   [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://ivan-da-cruz-developer.netlify.app)
 
-</p>
+</h2>
 
 
 <hr>
 <br>
 
-<h2 align='center'>Licença 🎗️</h2> 
+<h1 align='center'>
 
+📖 License
 
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 
+</h1>
+
 <hr>
 <br>
 
-Com 🫀 por: [Ivan Da Cruz](https://github.com/ivandacruz) 😃.
+With ️️❤ by: [Ivan Da Cruz](https://github.com/ivandacruz) 😃.
 
 ---
